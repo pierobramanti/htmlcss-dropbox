@@ -2,6 +2,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container-full{
+    width: 100%;
+    margin: auto;
+}
 /*Layout Header*/
 .container-h{
     width: 100%;
@@ -20,6 +25,26 @@
     flex-wrap: wrap;
     padding: 10px 10px;
     
+}
+/*Layout main*/
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.col-20{
+    border: 1px dashed white;
+    width: 20%;
+    height: 100px;
+}
+.col-30{
+    border: 1px dashed white;
+    width: 30%;
+    height: 100px;
+}
+.col-100{
+    border: 1px dashed white; 
+    height: 100px;  
 }
 
 /*content haeder*/
@@ -55,4 +80,9 @@
 li span{
     border: 1px solid black;
     margin-left: 5px;
+}
+
+/*Style main*/
+.bg-celeste{
+    background-color: #A1C9F7;
 }
