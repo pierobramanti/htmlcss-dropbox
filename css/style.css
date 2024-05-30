@@ -1,0 +1,58 @@
+*{ margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Layout Header*/
+.container-h{
+    width: 100%;
+    margin: auto;
+    
+}
+.row-h{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-50{
+    width: calc(100% / 2);
+    border: 1px dashed black;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 10px;
+    
+}
+
+/*content haeder*/
+.logo-h{
+    border: 1px dashed black;
+    margin-right: 10px;
+}
+.menu-h{
+    border: 1px dashed black;
+    
+}
+.menu-h ul{
+    list-style: none;
+    text-align: right;
+}
+.menu-h li{
+    display: inline-block;
+    margin: 5px 5px;
+}
+.menu-b{
+    border: 1px dashed black;
+    position: absolute;
+    right: 5px;
+}
+.menu-b ul{
+    list-style: none;
+    text-align: right;
+}
+.menu-b li{
+    display: inline-block;
+    margin: 5px 5px;
+}
+li span{
+    border: 1px solid black;
+    margin-left: 5px;
+}
