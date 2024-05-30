@@ -1,6 +1,7 @@
 *{ margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Open Sans";
 }
 
 .container-full{
@@ -51,9 +52,10 @@
 
 .col-33{
     border: 1px dashed black; 
-    height: 100px; 
+    height: 800px; 
     margin: 20px 20px; 
     width: calc(100% / 3-20px);
+
 }
 .col-100{
     border: 1px dashed black; 
@@ -97,7 +99,7 @@
     display: inline-block;
     margin: 5px 5px;
 }
-li span{
+.list-h span{
     border: 1px solid black;
     margin-left: 5px;
     padding: 5px 5px;
@@ -105,6 +107,70 @@ li span{
     color: white;
 }
 
+/*content Main*/
+.business-plan{
+    padding: 10px 10px;
+    border: 1px solid grey;
+    text-align: center;
+}
+
+.subscrition-cost{
+    padding: 10px 10px;
+}
+.subscrition-cost ul{
+    list-style: none;
+    text-align: left;
+}
+.subscrition-cost li{
+    margin: 10px 5px;
+}
+
+
+.subscrition-detayls ul{
+    list-style: none;
+    text-align: left;
+}
+.subscrition-detayls li{
+    margin: 5px 5px;
+    padding: 10px 10px;
+}
+
+
+.subscrition-point h5{
+margin-bottom: 20px;
+padding: 10px 10px;
+}
+
+.subscrition-point ul{
+    list-style: none;
+    text-align: left;
+}
+.subscrition-point li{
+    margin: 5px 5px;
+}
+.subscrition-point span{
+    color: #0061FF;
+    font-size: 20px;
+}
+.buy{
+    padding: 10px 10px;
+}
+.buy button{
+    padding: 5px 5px;
+    margin: 10px 5px;
+    background-color: #0061FF ;
+    color: white;
+}
+.buy p{
+    margin: 10px 5px;
+
+}
+
+.buy hr{
+    color: grey;
+    width: 30px;
+    margin: 30px 5px;
+}
 /*Style main*/
 .bg-celeste{
     background-color: #A1C9F7;
