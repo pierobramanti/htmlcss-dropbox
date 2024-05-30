@@ -5,7 +5,7 @@
 }
 
 .container-full{
-    width: 100%;
+    max-width: 1500px;
     margin: auto;
 }
 /*Layout Header*/
@@ -19,9 +19,9 @@
     display: flex;
     flex-wrap: wrap;
 }
+
 .col-50{
     width: calc(100% / 2);
-    border: 1px dashed black;
     display: flex;
     flex-wrap: wrap;
     padding: 10px 10px;
@@ -29,7 +29,7 @@
 }
 /*Layout main*/
 .container-m{
-    width: 100%;
+    max-width: 1500px;
     margin: auto;
 
 }
@@ -38,33 +38,38 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    
 }
 .col-20{
-    border: 1px dashed white;
     width: 20%;
-    height: 100px;
-    height: 300px;
+    
 }
 .col-30{
-    border: 1px dashed white;
-    width: 30%;
-    height: 300px;
+    width:40%;
+    position: relative;
+    top: 20px;
+    
+    
+
 }
 
 .col-30 img{
     width: 100%;
-    height: 100%;
+    
+    
+
 }
 
 .col-33{
-    border: 1px dashed black; 
+    border: 1px solid grey;
     height: 800px; 
     margin: 20px 20px; 
     width: calc(100% / 3-20px);
+    border-radius: 1%;
+    padding: 10px 10px;
 
 }
-.col-100{
-    border: 1px dashed black; 
+.col-100{ 
     height: 100px;  
     margin-top: 20px;
 }
@@ -72,18 +77,16 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 20px 20px;
+    margin-top: 80px;
+    
 }
 
 /*content haeder*/
 .logo-h{
-    border: 1px dashed black;
+
     margin-right: 10px;
 }
-.menu-h{
-    border: 1px dashed black;
-    
-}
+
 .menu-h ul{
     list-style: none;
     text-align: right;
@@ -93,7 +96,6 @@
     margin: 5px 5px;
 }
 .menu-b{
-    border: 1px dashed black;
     position: absolute;
     right: 5px;
 }
@@ -106,7 +108,6 @@
     margin: 5px 5px;
 }
 .list-h span{
-    border: 1px solid black;
     margin-left: 5px;
     padding: 5px 5px;
     background-color:#0061FF;
@@ -114,9 +115,33 @@
 }
 
 /*content Main*/
+
+.content-col-20{
+    font-size: 13px;
+    font-weight: 500;
+    padding: 10px 10px;
+}
+
+.content-col-20 a{
+    text-decoration: none;
+    color: white;
+}
+.content-col-20-link{
+    background-color:#0061FF;
+    text-decoration: none;
+    margin-top: 10px;
+    text-align: center;
+    padding: 5px 5px;
+    margin-top: 30px;
+}
+
+.content-col-20 i{
+ margin-top: 20px;
+ font-size: 50px;
+}
 .business-plan{
     padding: 10px 10px;
-    border: 1px solid grey;
+    border-bottom: 1px solid grey;
     text-align: center;
 }
 
@@ -198,4 +223,6 @@ padding: 10px 10px;
 }
 .col-100 h2{
     margin-bottom: 30px;
+    padding-right: 50px;
+    font-size: 30px;
 }
