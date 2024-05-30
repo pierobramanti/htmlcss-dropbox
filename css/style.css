@@ -1,7 +1,7 @@
 *{ margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Open Sans";
+    font-family: "Arial";
 }
 
 .container-full{
@@ -43,11 +43,17 @@
     border: 1px dashed white;
     width: 20%;
     height: 100px;
+    height: 300px;
 }
 .col-30{
     border: 1px dashed white;
     width: 30%;
-    height: 100px;
+    height: 300px;
+}
+
+.col-30 img{
+    width: 100%;
+    height: 100%;
 }
 
 .col-33{
@@ -117,6 +123,11 @@
 .subscrition-cost{
     padding: 10px 10px;
 }
+
+.subscrition-cost h4{
+    font-size: 30px;
+}
+
 .subscrition-cost ul{
     list-style: none;
     text-align: left;
@@ -147,6 +158,8 @@ padding: 10px 10px;
 }
 .subscrition-point li{
     margin: 5px 5px;
+    padding: 10px 10px;
+
 }
 .subscrition-point span{
     color: #0061FF;
