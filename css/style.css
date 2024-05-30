@@ -27,6 +27,12 @@
     
 }
 /*Layout main*/
+.container-m{
+    width: 100%;
+    margin: auto;
+
+}
+
 .row{
     display: flex;
     flex-wrap: wrap;
@@ -42,9 +48,23 @@
     width: 30%;
     height: 100px;
 }
+
+.col-33{
+    border: 1px dashed black; 
+    height: 100px; 
+    margin: 20px 20px; 
+    width: calc(100% / 3-20px);
+}
 .col-100{
-    border: 1px dashed white; 
+    border: 1px dashed black; 
     height: 100px;  
+    margin-top: 20px;
+}
+.row-m{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 20px;
 }
 
 /*content haeder*/
@@ -80,9 +100,23 @@
 li span{
     border: 1px solid black;
     margin-left: 5px;
+    padding: 5px 5px;
+    background-color:#0061FF;
+    color: white;
 }
 
 /*Style main*/
 .bg-celeste{
     background-color: #A1C9F7;
+}
+.col-100 p{
+    text-align: left;
+    font-size: 12px;
+    
+}
+.col-100 span{
+    margin: 5px;
+}
+.col-100 h2{
+    margin-bottom: 30px;
 }
