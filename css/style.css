@@ -328,9 +328,16 @@ padding: 10px 10px;
 }
 .col-100 h2{
     margin: 30px 0 30px 250px;
-    font-size: 25px;
+    font-size: 35px;
     
 }
 .col-100 h1{
    margin: 50px 0 50px 250px;
+   font-size: 35px;
+}
+.col-100 a{
+    text-align: left;
+    font-size: 15px;
+    margin-left: 250px;
+    
 }
