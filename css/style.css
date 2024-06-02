@@ -66,19 +66,55 @@
 
 .col-30 img{
     width: 100%;
-    
-    
 
 }
 
+.col-25{
+ width: 25%;
+ height: 520px;
+ padding: 10px 10px;
+}
+.col-25 div{
+    margin: 20px 0 30px 20px;
+
+}
+
+.col-25 button{
+    padding: 10px 30px;
+    background-color:white ;
+    color: rgb(160, 155, 155);
+
+
+}
+
+
 .col-33{
     border: 1px solid grey;
-    height: 800px; 
-    margin: 20px 20px; 
+    height: 1100px; 
+    margin: 50px 20px; 
     width: calc(100% / 3-20px);
     border-radius: 1%;
-    padding: 10px 10px;
+    padding: 10px 0px;
 
+}
+
+.col-40{
+
+    width: 40%;
+    height: 520px;
+}
+
+.col-40 img{
+    width: 100%;
+}
+
+.col-99{
+    width: 75%;
+    margin: auto;
+    border: 1px solid grey;
+    height: 250px;
+    max-width: 1000px;
+    
 }
 .col-100{   
     width: 100%;
@@ -149,17 +185,20 @@
  font-size: 50px;
 }
 .business-plan{
-    padding: 10px 10px;
+    padding: 10px 0px;
     border-bottom: 1px solid grey;
     text-align: center;
 }
 
+
 .subscrition-cost{
+    margin: 30px 10px;
     padding: 10px 10px;
 }
 
 .subscrition-cost h4{
     font-size: 30px;
+    margin-bottom: 20px;
 }
 
 .subscrition-cost ul{
@@ -172,11 +211,12 @@
 
 .subscrition-detayls{
     display: flex;
+    padding: 10px 10px;
 }
 
 .subscrition-detayls div{
     max-width: 220px;
-    margin: 5px 10px;
+    margin: 10px 10px;
 }
 
 
@@ -192,6 +232,7 @@ padding: 10px 10px;
 .subscrition-point li{
     margin: 5px 5px;
     padding: 10px 10px;
+    max-width: 220px;
 
 }
 .subscrition-point span{
@@ -202,10 +243,12 @@ padding: 10px 10px;
     padding: 10px 10px;
 }
 .buy button{
-    padding: 5px 5px;
-    margin: 10px 5px;
+    padding: 10px 50px;
+    margin: 10px 20px;
     background-color: #0061FF ;
     color: white;
+    border: none;
+
 }
 .buy p{
     margin: 10px 5px;
@@ -217,6 +260,37 @@ padding: 10px 10px;
     width: 30px;
     margin: 30px 5px;
 }
+
+.contact-us{
+    display: flex;
+}
+
+.contact-us div{
+    padding: 30px 10px;
+    
+}
+
+.contact-us h2{
+    font-size: 30px;
+    margin: 10px 10px;
+}
+
+.contact-us h5{
+    font-size: 20px;
+    margin:10px 10px 30px 10px;
+}
+
+.contact-us p{
+    font-size: 15px;
+    margin:10px 10px 30px 10px;
+}
+
+.contact-us button{
+    padding: 10px 50px;
+    background-color: #0061FF ;
+    color: white;
+    border: none;}
+
 /*Style main*/
 .bg-celeste{
     background-color: #A1C9F7;
