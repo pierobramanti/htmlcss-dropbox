@@ -87,6 +87,27 @@
 
 }
 
+.col-22{
+    background-color:white ;
+    width: 20%;
+    margin: 20px 20px;
+    height: 450px;
+    padding: 10px 10px;
+}
+
+.col-22 .content{
+    height: 210px;
+    margin: 10px 0 20px 0;
+}
+
+.col-22 img{
+    width: 100%;
+}
+
+.col-22 h3{
+    margin: 5px 0 30px 0;
+}
+
 
 .col-33{
     border: 1px solid grey;
@@ -123,7 +144,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 80px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     
 }
 
