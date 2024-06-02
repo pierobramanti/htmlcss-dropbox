@@ -38,6 +38,28 @@
     
 }
 
+.col-50C{
+    width: 25%;
+    height: 200px;
+    padding: 20px 20px;
+    display: flex;
+    align-items: center;
+   
+}
+
+.col-50C button{
+    padding: 10px 10px;
+    background-color:white ;
+    color: rgb(59, 58, 58);
+    margin-left: 50px;
+}
+
+.col-50C h2{
+    color: rgb(116, 19, 16);
+}
+
+
+
 /*Layout main*/
 .container-m{
     max-width: 1500px;
@@ -195,6 +217,12 @@
 
 .row-2m{
  display: flex ;
+}
+
+.row-3m{
+    display: flex ;
+    justify-content: center; 
+    
 }
 
 /*content haeder*/
@@ -422,3 +450,8 @@ padding: 10px 10px;
 .bg-grey{
     background-color: rgb(207, 206, 206);
 }
+
+.bg-lightblue{
+    background-color: #7eafff;
+}
+
