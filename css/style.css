@@ -186,7 +186,6 @@
 }
 
 .col-40{
-
     width: 40%;
     height: 520px;
 }
@@ -200,11 +199,10 @@
 }
 
 .col-99{
-    width: 75%;
+    width: 65%;
     margin: auto;
     border: 1px solid grey;
     height: 250px;
-    max-width: 1000px;
     border-radius: 2%;
     
 }
