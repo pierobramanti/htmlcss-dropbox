@@ -14,6 +14,8 @@
 .container-h{
     width: 100%;
     margin: 0 auto;
+    position: fixed;
+    z-index: 1;
     
 }
 .row-h{
@@ -175,7 +177,7 @@
 
 .col-33{
     border: 1px solid grey;
-    height: 1100px; 
+    height: 1000px; 
     margin: 50px 20px; 
     width: calc(100% / 3-20px);
     border-radius: 1%;
@@ -372,31 +374,31 @@ header a{
 
 .subscrition-detayls div{
     max-width: 220px;
-    margin: 10px 10px;
+    margin: 10px 5px;
 }
+
 
 
 .subscrition-point h5{
-margin-bottom: 20px;
-padding: 10px 10px;
+margin: 5px 20px;
+font-weight: 1000;
 }
 
-.subscrition-point ul{
-    list-style: none;
-    text-align: left;
-}
-.subscrition-point li{
-    margin: 5px 5px;
-    padding: 10px 10px;
+
+.list-checked{
+    display: flex;
     max-width: 220px;
+    margin: 20px 20px; 
+}
 
-}
-.subscrition-point span{
+.list-checked i{
     color: #0061FF;
-    font-size: 20px;
+    margin-right: 5px;
 }
+
+
 .buy{
-    padding: 10px 10px;
+   margin: 10px 20px;
 }
 .buy button{
     padding: 10px 50px;
@@ -482,6 +484,7 @@ padding: 10px 10px;
 .col-100 h1{
    margin: 50px 0 50px 250px;
    font-size: 35px;
+   padding-top: 50px;
 }
 
 .col-100 hr{
